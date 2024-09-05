@@ -491,11 +491,7 @@ public class OmsPortalOrderServiceImpl implements OmsPortalOrderService {
      * 计算该订单赠送的成长值
      */
     private Integer calcGiftGrowth(List<OmsOrderItem> orderItemList) {
-        Integer sum = 0;
-        for (OmsOrderItem orderItem : orderItemList) {
-            sum = sum + orderItem.getGiftGrowth() * orderItem.getProductQuantity();
-        }
-        return sum;
+        
     }
 
     /**
