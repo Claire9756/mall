@@ -21,7 +21,7 @@ import java.util.List;
 @Controller
 @Api(tags = "CmsPrefrenceAreaController")
 @Tag(name = "CmsPrefrenceAreaController", description = "商品优选管理")
-@RequestMapping("/prefrenceArea")
+@RequestMapping("")
 public class CmsPrefrenceAreaController {
     @Autowired
     private CmsPrefrenceAreaService prefrenceAreaService;

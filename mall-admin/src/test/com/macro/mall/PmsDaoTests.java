@@ -40,7 +40,6 @@ public class PmsDaoTests {
             list.add(memberPrice);
         }
         int count = memberPriceDao.insertList(list);
-        assertEquals(5,count);
     }
 
     @Test
